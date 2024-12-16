@@ -40,3 +40,14 @@ Expo: Chosen for its ease of use and powerful development tools.
 TypeScript: Ensures type safety and better developer experience.
 Modular Structure: The project is organized into modules for better maintainability and scalability.
 Dark Theme: Consistent dark theme for a modern look and feel.
+
+##Example app in Android
+
+https://github.com/user-attachments/assets/718586a0-174b-45d1-bacb-cd85e1d186c9
+
+##Example app in iOS
+
+https://github.com/user-attachments/assets/fbf1c6c8-b00f-4f9a-92b5-3f7402bbae33
+
+
+
