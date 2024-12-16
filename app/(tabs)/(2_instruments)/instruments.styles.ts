@@ -11,6 +11,14 @@ export const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: Colors.DARKGRAY,
   },
+  leftContainer: {
+    flex: 1,
+    paddingRight: Spacing.space8H,
+  },
+  rightContainer: {
+    flexShrink: 0,
+    alignItems: 'flex-end',
+  },
   ticker: {
     fontSize: normalizeSize(18),
     fontWeight: 'bold',

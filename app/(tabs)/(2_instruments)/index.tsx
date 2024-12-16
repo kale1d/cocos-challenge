@@ -38,11 +38,13 @@ export const InstrumentScreen: React.FC = () => {
     const isPositiveReturnPercentage = isPositiveReturn(returnPercentage);
     return (
       <Pressable style={styles.card} onPress={handleOnPressInstrument}>
-        <View>
+        <View style={styles.leftContainer}>
           <Text style={styles.ticker}>{item.ticker}</Text>
-          <Text style={styles.name}>{item.name}</Text>
+          <Text style={styles.name} numberOfLines={2}>
+            {item.name}
+          </Text>
         </View>
-        <View>
+        <View style={styles.rightContainer}>
           <Text style={styles.price}>
             {item.last_price} {CURRENCIES.ARS}
           </Text>
