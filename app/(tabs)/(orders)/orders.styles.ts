@@ -12,29 +12,29 @@ export const styles = StyleSheet.create({
     borderBottomColor: Colors.DARKGRAY,
   },
   ticker: {
-    fontSize: 18,
+    fontSize: normalizeSize(18),
     fontWeight: 'bold',
     color: Colors.WHITE,
   },
   name: {
-    fontSize: 12,
+    fontSize: normalizeSize(12),
     color: Colors.LIGHTGRAY,
-    marginBottom: 4,
+    marginBottom: Spacing.space4V,
   },
   orderDetails: {
-    fontSize: 14,
+    fontSize: normalizeSize(14),
     color: Colors.DARKGRAY,
   },
   quantity: {
-    fontSize: 16,
+    fontSize: normalizeSize(16),
     textAlign: 'right',
     fontWeight: 'bold',
     color: Colors.WHITE,
   },
   status: {
-    fontSize: 14,
+    fontSize: normalizeSize(14),
     textAlign: 'right',
-    marginTop: 4,
+    marginTop: Spacing.space4V,
   },
   filledStatus: {
     color: Colors.SUCCESS,
