@@ -36,7 +36,7 @@ export const TabLayout: React.FC = () => {
         },
       }}>
       <Tabs.Screen
-        name="(portfolio)/index"
+        name="(1_portfolio)/index"
         options={{
           tabBarLabel: 'Portfolio',
           tabBarIcon: ({ color, size }) => (
@@ -45,7 +45,7 @@ export const TabLayout: React.FC = () => {
         }}
       />
       <Tabs.Screen
-        name="(instruments)/index"
+        name="(2_instruments)/index"
         options={{
           tabBarLabel: 'Instruments',
           tabBarIcon: ({ color, size }) => (
@@ -54,7 +54,7 @@ export const TabLayout: React.FC = () => {
         }}
       />
       <Tabs.Screen
-        name="(search)/index"
+        name="(3_search)/index"
         options={{
           tabBarLabel: 'Search',
           tabBarIcon: ({ color, size }) => (
@@ -63,7 +63,7 @@ export const TabLayout: React.FC = () => {
         }}
       />
       <Tabs.Screen
-        name="(orders)/index"
+        name="(4_orders)/index"
         options={{
           tabBarLabel: 'Orders',
           tabBarIcon: ({ color, size }) => (
